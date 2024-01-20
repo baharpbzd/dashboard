@@ -22,5 +22,7 @@ if button1:
 Like = st.checkbox ("Do you like this app?")
 button2 = st.button ("Submit")
 if button2:
-  if Like:
-    st.write ("Thanks! I like it too")
+    if Like:
+      st.write ("Thanks! I like it too")
+    else:
+      st.write ("I'm sorry. You have bad tastes")
