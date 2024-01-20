@@ -20,3 +20,6 @@ button1 = st.button ("Click Me")
 if button1: 
   st.write("This is some Text")
 like = st.checkbox ("Do you like this app?")
+button2 = st.button ("Submit")
+if button2:
+  st.write ("Like")
