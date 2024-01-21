@@ -30,3 +30,6 @@ if button4:
     st.write(animal2)
     if animal == "Lion":
         st.write("ROAR!")
+
+st.header("Start of the Multiselect Section")
+options = st.multiselect("What Animals do you like?",["Lion","Tiger","Bear"])
