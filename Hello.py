@@ -16,7 +16,7 @@ if button2:
       st.write ("I'm sorry. You have bad tastes")
 
 st.header("Start of the Radio Button Section")
-animal = st.radio("What animal is your favorite?, ("Lions","Tigers","Bears"))
+animal = st.radio("What animal is your favorite?", ("Lion","Tiger","Bear"))
 button3 = st.button("Submit Animal")
 if button3: 
     st.write(animal)
