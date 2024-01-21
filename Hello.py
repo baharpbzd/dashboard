@@ -38,7 +38,9 @@ if button5:
     st.write(options)
 
 st.header("Start of the Slider Section")
-epochs_num = st.slider("How many epochs?",1,100)
+epochs_num = st.slider("How many epochs?",1,100,10)
+if st.button("Slider Button")
+    st.write(epochs_num)
 
 
 
