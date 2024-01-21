@@ -20,3 +20,5 @@ animal = st.radio("What animal is your favorite?", ("Lion","Tiger","Bear"))
 button3 = st.button("Submit Animal")
 if button3: 
     st.write(animal)
+    if animal == "Lion":
+      st.write("ROAR!")
