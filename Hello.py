@@ -42,7 +42,10 @@ epochs_num = st.slider("How many epochs?",1,100,10)
 if st.button("Slider Button"):
     st.write(epochs_num)
 
-
+st.header("Start of the Text Input Section")
+user_text = st.text_input("What's your favorite movie?")
+if st.button("Text Button"):
+  st.write(user_text)
 
 
 
