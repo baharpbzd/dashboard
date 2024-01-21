@@ -47,7 +47,9 @@ user_text = st.text_input("What's your favorite movie?")
 if st.button("Text Button"):
   st.write(user_text)
 
-
+user_num = st.number_input("What's your favorite number?")
+if st.button ("Number Button"):
+  st.write(user_num)
 
 
   
