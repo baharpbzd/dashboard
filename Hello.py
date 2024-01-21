@@ -52,5 +52,6 @@ if st.button ("Number Button"):
   st.write(user_num)
 
 st.sidebar.header("Options")
-  
+text = st.sidebar.text_area("Paste Text Here")  
+st.write(text)
 
