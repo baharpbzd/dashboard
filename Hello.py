@@ -37,6 +37,9 @@ button5 = st.button ("Print Animals")
 if button5:
     st.write(options)
 
+st.header("Start of the Slider Section")
+epochs_num = st.slider("How many epochs?",1,100)
+
 
 
 
