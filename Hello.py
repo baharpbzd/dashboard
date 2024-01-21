@@ -33,3 +33,14 @@ if button4:
 
 st.header("Start of the Multiselect Section")
 options = st.multiselect("What Animals do you like?",["Lion","Tiger","Bear"])
+button5 = st.button ("Print Animals")
+if button5:
+    st.write(options)
+
+
+
+
+
+
+  
+
