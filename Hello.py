@@ -51,7 +51,16 @@ user_num = st.number_input("What's your favorite number?")
 if st.button ("Number Button"):
   st.write(user_num)
 
+def clean_text(text):
+  text = text.replace("'","").replace("\n"," ").strip()
+  return (text)
+
+
 st.sidebar.header("Options")
 text = st.sidebar.text_area("Paste Text Here")  
 st.write(text)
-
+button7 = st.sidebar.button("Clean Text")
+if button7:
+    st.write(text)
+    clean = clean_text(text)
+    st.write(clean)
