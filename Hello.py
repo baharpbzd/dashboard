@@ -61,6 +61,11 @@ text = st.sidebar.text_area("Paste Text Here")
 st.write(text)
 button7 = st.sidebar.button("Clean Text")
 if button7:
+    col1, col2 = st.beta_columns(2)
+    col1.header("Original Text")
+    col1.write(text)
+    col2.header("Cleaned Text")
+
     st.write(text)
     clean = clean_text(text)
     st.write(clean)
