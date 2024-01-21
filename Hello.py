@@ -19,6 +19,8 @@ st.write ("This is my App")
 button1 = st.button ("Click Me")
 if button1: 
   st.write("This is some Text")
+
+st.header ("Start of the Checkbox Section")
 Like = st.checkbox ("Do you like this app?")
 button2 = st.button ("Submit")
 if button2:
@@ -26,3 +28,5 @@ if button2:
       st.write ("Thanks! I like it too")
     else:
       st.write ("I'm sorry. You have bad tastes")
+
+st.header("Start of the Radio Button Section")
