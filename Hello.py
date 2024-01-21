@@ -21,4 +21,4 @@ button3 = st.button("Submit Animal")
 if button3: 
     st.write(animal)
     if animal == "Lion":
-      st.write("ROAR!")
+        st.write("ROAR!")
