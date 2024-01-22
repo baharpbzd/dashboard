@@ -1,4 +1,5 @@
 import streamlit as st
+import matplotlib 
 st.title ("Streamlit Tutorial App")
 st.write ("This is my App")
 
